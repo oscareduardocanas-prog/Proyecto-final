@@ -1,0 +1,16 @@
+.gradient-custom {
+    background-color: hsl(46, 29%, 41%);
+    }
+    section{
+    bottom: 60px;
+    background-color: #494647;
+    }
+    .img{
+    height: 100%;
+    width: 250%;
+    }
+    
+    .img1{
+        height: 100%;
+        width: 300%;
+        }

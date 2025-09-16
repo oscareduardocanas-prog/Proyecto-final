@@ -1,0 +1,144 @@
+.logo {
+    background: left / cover
+      url("https://www.labonacoca.es/wp-content/uploads/2023/06/pan-de-coca-bona-coca-acompanamiento-1024x683.jpg");
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    font:
+      bold calc(1em + 2 * (100vw - 120px) / 100) "Dancing Script",
+      fantasy;
+    color: #ff0083;
+    text-shadow: black 2px 2px 0.2rem;
+  }
+  
+  header > h1 {
+    margin-bottom: 0;
+  }
+  
+  header > time {
+    font: italic 0.7rem sans-serif;
+  }
+
+/* nav */
+.menu {
+    list-style: none;       /* Quita números/viñetas */
+    margin: 0;
+    padding: 0;
+    display: flex;          /* Alinea en fila */
+    gap: 30px;              /* Espacio entre enlaces */
+  }
+  
+  .menu li a {
+    text-decoration: none;  /* Quita el subrayado */
+    color: #333;            /* Color del texto */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  
+  .menu li a:hover {
+    background-color: #ffb6c1; /* Color pastel al pasar */
+    color: white;
+  }
+
+/* main */
+header {
+  font:
+    bold 4vw Arial,
+    sans-serif;
+}
+
+main {
+  font:
+    bold 3vw Arial,
+    sans-serif;
+}
+  
+/* figure mas figcaption */
+igure {
+    border: thin silver solid;
+    display: flex;
+    flex-flow: column;
+    padding: 500px;
+    max-width: 220px;
+    margin: auto;
+  }
+  
+  img {
+    width: 1185px;
+    height: 500px;
+  }
+  
+  figcaption {
+    background-color: #222222;
+    color: white;
+    font: italic smaller sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+
+/* detail */
+details {
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0;
+}
+
+summary {
+    font-weight: bold;
+    text-align: center;   /* centra el texto */
+    font-size: 1.5em;     /* aumenta el tamaño de la letra */
+    margin: 1em 0;        /* espacio arriba y abajo */
+  }
+  
+
+details[open] {
+  padding: 2.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaaaaa;
+  margin-bottom: 0.5em;
+}
+
+/* details */
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* centra verticalmente el texto */
+    padding: 10px;
+    background-color: #2c3b49;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* fondo */
+  body {
+    background-image: url("https://www.chovi.com/wp-content/uploads/2022/09/recetas-gourmet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .info-extra {
+    background-color: #f8f8f8; /* fondo claro */
+    border-left: 4px solid #c0392b; /* línea decorativa roja tipo gourmet */
+    padding: 12px 16px;
+    margin: 15px 0;
+    font-size: 16px;
+    font-family: "Georgia", serif;
+    color: #333;
+  }
+  .info-extra strong {
+    color: #c0392b; /* resalta la hora */
+  }
+  
